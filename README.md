@@ -6,16 +6,12 @@
 
 An end-to-end analytical workflow to evaluate marketing campaign effectiveness, utilizing rigorous statistical hypothesis testing and bias adjustment to drive data-driven decision making.
 
----
-
 ## 📑 Table of Contents
 * [📌 Project Overview](#-project-overview)
 * [📊 Data Source](#-data-source)
 * [🛠 Tech Stack](#-tech-stack)
 * [🔍 Methodology](#-methodology)
 * [💡 Actionable Recommendations](#-actionable-recommendations)
-
----
 
 ## 📌 Project Overview
 This project conducts a comprehensive A/B testing analysis of a marketing campaign to evaluate whether a new advertisement significantly improves user conversion rates. The workflow covers:
@@ -24,21 +20,15 @@ This project conducts a comprehensive A/B testing analysis of a marketing campai
 * **Rigorous Statistical Hypothesis Testing**
 * **Bias Adjustment & Business Impact Assessment**
 
----
-
 ## 📊 Data Source
 The dataset used in this analysis is the **Marketing A/B Testing** dataset provided by Favio Vázquez, hosted on Kaggle.
 * **Dataset Link:** [Kaggle - Marketing A/B Testing](https://www.kaggle.com/datasets/faviovaz/marketing-ab-testing/data)
-
----
 
 ## 🛠 Tech Stack
 * **Language:** Python
 * **Data Manipulation:** Pandas, NumPy
 * **Statistical Analysis:** SciPy (`chi2_contingency`, `ttest_ind`), Statsmodels (Logistic Regression, Two-Way ANOVA)
 * **Data Visualization:** Matplotlib, Seaborn
-
----
 
 ## 🔍 Methodology
 
@@ -64,8 +54,6 @@ The dataset used in this analysis is the **Marketing A/B Testing** dataset provi
 
 ### 6. Business Impact & Lift Analysis
 * Calculated **Absolute and Relative Lift** to estimate potential incremental conversions and revenue potential for stakeholders.
-
----
 
 ## 💡 Actionable Recommendations
 1. **Full-Scale Rollout:** Confidently deploy the new ad campaign based on strong statistical evidence.
